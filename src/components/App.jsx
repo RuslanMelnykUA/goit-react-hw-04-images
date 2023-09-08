@@ -12,7 +12,6 @@ export const App = () => {
   const { setPage } = useCustomPageContext();
   const onSubmit = requestValue => {
     setRequest(requestValue);
-
     setData([]);
     setPage(1);
   };
